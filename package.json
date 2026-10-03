@@ -1,0 +1,17 @@
+{
+  "name": "brivon-bridge-quote-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone quote-only client for Brivon cross-chain native-asset settlement",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "quote": "node src/get-quote.mjs"
+  },
+  "dependencies": {
+    "dotenv": "16.6.1",
+    "ethers": "6.17.0"
+  }
+}
